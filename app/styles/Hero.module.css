@@ -1,0 +1,20 @@
+/* Hero.module.css */
+.heroContainer {
+    transition: background-color 0.3s ease; /* Optional: untuk transisi */
+  }
+  
+  .heroContainer.light {
+    background-color: white;
+    color: black;
+  }
+  
+  .heroContainer.dark {
+    background-color: black;
+    color: white;
+  }
+  
+  .heroContainer.grey {
+    background-color: grey;
+    color: black;
+  }
+  
